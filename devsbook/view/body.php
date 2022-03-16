@@ -13,7 +13,7 @@ require_once( "usuario.php");
                         <div class="box-body">
                             <div class="feed-new-editor m-10 row">
                                 <div class="feed-new-avatar">
-                                <?php echo "<img src='assets/images/".$user['fotopes']." '/>" ; ?>
+                                <?php echo "<img src='../media/images/".$user['fotopes']." '/>" ; ?>
                                 </div>
                                 <div class="feed-new-input-placeholder">O que você está pensando, Bonieky?</div>
                                 <div class="feed-new-input" contenteditable="true"></div>
@@ -46,14 +46,14 @@ require_once( "usuario.php");
                                 Este sistema permite que vários funcionários/colaboradores da empresa atendam um mesmo número de WhatsApp, mesmo que estejam trabalhando remotamente, sendo que cada um acessa com um login e senha particular....
                             </div>
                             <div class="feed-item-buttons row mt-20 m-width-20">
-                                <div class="like-btn on">56</div>
+                                <div class="like-btn on">50</div>
                                 <div class="msg-btn">3</div>
                             </div>
                             <div class="feed-item-comments">
                                 
                                 <div class="fic-item row m-height-10 m-width-20">
                                     <div class="fic-item-photo">
-                                        <a href=""><?php echo "<img src='assets/images/".$user['fotopes']." '/>" ; ?></a>
+                                        <a href=""><?php echo "<img src='../media/images/".$user['fotopes']." '/>" ; ?></a>
                                     </div>
                                     <div class="fic-item-info">
                                         <a href="">Bonieky Lacerda</a>
@@ -63,7 +63,7 @@ require_once( "usuario.php");
 
                                 <div class="fic-item row m-height-10 m-width-20">
                                     <div class="fic-item-photo">
-                                        <a href=""><?php echo "<img src='assets/images/".$user['fotopes']." '/>" ; ?></a>
+                                        <a href=""><?php echo "<img src='../media/images/".$user['fotopes']." '/>" ; ?></a>
                                     </div>
                                     <div class="fic-item-info">
                                         <a href="">Bonieky Lacerda</a>
@@ -73,7 +73,7 @@ require_once( "usuario.php");
 
                                 <div class="fic-answer row m-height-10 m-width-20">
                                     <div class="fic-item-photo">
-                                        <a href=""><?php echo "<img src='assets/images/".$user['fotopes']." '/>" ; ?></a>
+                                        <a href=""><?php echo "<img src='../media/images/".$user['fotopes']." '/>" ; ?></a>
                                     </div>
                                     <input type="text" class="fic-item-field" placeholder="Escreva um comentário" />
                                 </div>

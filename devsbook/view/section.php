@@ -19,7 +19,7 @@ require_once( "usuario.php");
                 <a href="">
                     <div class="menu-item">
                         <div class="menu-item-icon">
-                        <?php echo "<img src='assets/images/".$user['fotopes']." width='16' height='16'  '/>" ; ?>
+                        <?php echo "<img src='../media/images/".$user['fotopes']." width='16' height='16'  '/>" ; ?>
                             
 
                         </div>

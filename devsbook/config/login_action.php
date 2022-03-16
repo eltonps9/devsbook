@@ -42,6 +42,7 @@ if($email){
     
     }
 }else{
+    $_SESSION['error'] = "Preencha o formulario corretamente";
     header("Location:../connect/login.php");
     exit;
 }

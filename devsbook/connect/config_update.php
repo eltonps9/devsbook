@@ -23,9 +23,7 @@ require_once("../view/usuario.php");
     <section class="container main">
         <form method="POST" action="../config/con_upd_action.php" enctype="multipart/form-data" >
 
-            <input  class="input" type="hidden" name="id" />
-
-            <input class="input-foto" type="file" name="img"/>
+            <input class="input-foto" type="file" name="img"  />
 
             <input value="<?=$user['nome'];?>" class="input" type="text" name="nome" />
 

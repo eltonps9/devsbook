@@ -19,7 +19,12 @@ session_start();
     <section class="container main">
         <form method="POST" action="../config/login_action.php">
 
-            
+            <div class="php">
+                <p>
+                    <?php if($_SESSION['error']) {  echo  $_SESSION['error'];  $_SESSION['error'] = ""; }?>  
+                </p>
+            </div>    
+
             <input placeholder="Digite seu e-mail" class="input" type="email" name="email" />
 
             <input placeholder="Digite sua senha" class="input" type="password" name="password" />

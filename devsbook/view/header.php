@@ -1,6 +1,6 @@
 <?php 
 
-require "usuario.php";
+require_once("usuario.php");
 
 ?>
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ require "usuario.php";
                     <a href="" class="user-area">
                         <div class="user-area-text"><?=$user['nome'];?></div>
                         <div class="user-area-icon">
-                        <?php echo "<img src='assets/images/".$user['fotopes']." '/>" ; ?>
+                        <?php echo "<img src='../media/images/".$user['fotopes']." '/>" ; ?>
 
 
                         </div>
